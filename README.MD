@@ -1,27 +1,27 @@
 <h1 align="center"> Arduino Weather Station</h1>
 <h2 align="center">This is an Arduino Weather Station Program.</h2>
-<p>In this program,you can use your Arduino Uno Rev3 and DHT Tempture sensor with 1602A LCD monitor to make a weather station easily.This source come from https://miymakers.wordpress.com/ and in this course of study I find some wrong and fixed in this page.</p>
+<p align="center">In this program,you can use your Arduino Uno Rev3 and DHT Tempture sensor with 1602A LCD monitor to make a weather station easily.This source come from https://miymakers.wordpress.com/ and in this course of study I find some wrong and fixed in this page.</p>
 <p>This station will use 3.3V port on Arduino.</p>
 <h3 align="center">Connect</h3>
 <h4 align="center">LCD Connect</h4>
-<p>D7- DIGITAL PIN 2</br>D6 ¨C 3</br>D5 ¨C 4</br>D4 ¨C 5</br>E ¨C 11</br>RS ¨C 12</br>VDD (+) RAIL BREADBOARD</br>A (+)RAIL BREADBOARD</br>VSS (-)RAIL BREADBOARD</br>K (-)RAIL BREADBOARD</br>RW (-)RAIL BREADBOARD</br>VO ¨C  Potentiometer Middle Pin</p>
+<p align="center">D7- DIGITAL PIN 2</br>D6 â€“ 3</br>D5 â€“ 4</br>D4 â€“ 5</br>E â€“ 11</br>RS â€“ 12</br>VDD (+) RAIL BREADBOARD</br>A (+)RAIL BREADBOARD</br>VSS (-)RAIL BREADBOARD</br>K (-)RAIL BREADBOARD</br>RW (-)RAIL BREADBOARD</br>VO â€“  Potentiometer Middle Pin</p>
 <h4 align="center">DHT sensor Connect</h4>
-<p>We will be perforated positive side and left to right a total of 4 pins(may be your only have 3 pins but that is better).</br>The first pin is VCC,can work on 3.3V to 5.5V</br>The second pin is DATA PIN,you need connect this pin to A1 port on board.</br>The third pin is empty (3 pins DHT sensor don't have this pin)</br>The fourth pin is GND</br>Caution!You need use this pin and in the orginal course of study,they teach you use third pin and that is WRONG!</p>
+<p align="center">We will be perforated positive side and left to right a total of 4 pins(may be your only have 3 pins but that is better).</br>The first pin is VCC,can work on 3.3V to 5.5V</br>The second pin is DATA PIN,you need connect this pin to A1 port on board.</br>The third pin is empty (3 pins DHT sensor don't have this pin)</br>The fourth pin is GND</br>Caution!You need use this pin and in the orginal course of study,they teach you use third pin and that is WRONG!</p>
 <h3 align="center">Flash the sourse to board</h3>
-<p>And now,you need install DHT repo to your Arduino software,you can see a zip package named DHT.zip in this repo.Caution!You must install this package and if you don't install this you may be get so many errors </p>
+<p align="center">And now,you need install DHT repo to your Arduino software,you can see a zip package named DHT.zip in this repo.Caution!You must install this package and if you don't install this you may be get so many errors </p>
 <h3 align="center">congratulation!Now you can see Temp and Humidity data in your 1602A monitor throught adjustment potentiometer if you connect right!</h3>
 
-<h2 align="center">ÕâÊÇÒ»¸ö¹¹½¨ Arduino ÆøÏóÕ¾µÄĞ¡ÏîÄ¿</h2>
-<p>Äã¿ÉÒÔÍ¨¹ıÕâ¸öÏîÄ¿ÇáËÉµØÊ¹ÓÃÄãµÄ Arduino Uno ºÍ DHT ÎÂÊª¶È´«¸ĞÆ÷ÒÔ¼° 1602A µãÕóÆÁÀ´¹¹½¨Ò»¸öĞ¡µÄ Arduino ÆøÏóÕ¾.±¾ÏîÄ¿µÄÔ´ÂëÀ´×Ô https://miymakers.wordpress.com/ ÔÚÕâ¸ö½Ì³ÌÖĞ³öÏÖÁËÒ»¸öĞ¡´íÎó£¬ÎÒ»áÔÚºóÃæµÄ½Ì³ÌÖĞ¾ÀÕıËü</p>
-<p>´ËÆøÏóÕ¾½«Ê¹ÓÃ3.3V¹©µç.</p>
-<h3 align="center">½ÓÏß</h3>
-<h4 align="center">LCD ÏÔÊ¾ÆÁµÄÁ¬½Ó</h4>
-<p>D7 - 2 ºÅ½Ó¿Ú</br>D6 ¨C 3 ºÅ½Ó¿Ú</br>D5 ¨C 4 ºÅ½Ó¿Ú</br>D4 ¨C 5 ºÅ½Ó¿Ú</br>E ¨C 11 ºÅ½Ó¿Ú</br>RS ¨C 12 ºÅ½Ó¿Ú</br>VDD ½ÓÈëµçÔ´Õı¼«</br>A ½ÓÈëµçÔ´Õı¼«</br>VSS ½ÓÈëµçÔ´¸º¼«</br>K ½ÓÈëµçÔ´¸º¼«</br>RW ½ÓÈëµçÔ´¸º¼«</br>VO ¨C  µçÎ»Æ÷µÄÖĞ¼ä½Å</p>
-<h4 align="center">DHT ´«¸ĞÆ÷µÄÁ¬½Ó</h4>
-<p>ÎÒÃÇÒÑÓĞºÜ¶à¿×µÄÒ»ÃæÎªÕıÃæ£¬´Ó×óµ½ÓÒÒ»¹²ÓĞ4¸öÒı½Å£¨Èç¹ûÄãµÄÖ»ÓĞÈı¸öÒı½ÅÄÇ¸üºÃ£©.</br>µÚÒ»¸öÒı½Å½ÓµçÔ´Õı¼«£¬¹¤×÷µçÑ¹·¶Î§ÊÇ 3.3V µ½ 5.5V</br>µÚ¶ş¸öÒı½ÅÊÇÊä³ö½Å£¬ÄãĞèÒª°ÑËüÁ¬½Óµ½ A1 ½Ó¿Ú</br>µÚÈı¸ö½ÅÊÇ¿ÕÖÃ½Å£¨Èç¹ûÄãµÄ DHT Ö»ÓĞÈı¸ö½ÅÔòÄãµÄ´«¸ĞÆ÷ÉÏÃ»ÓĞÕâ¸ö½Å£©</br>µÚËÄ¸ö½Å½ÓµçÔ´¸º¼«</br>×¢Òâ£¬Ô­Ê¼µÄ½Ì³ÌÉÏÈÃÄã°ÑµÚÈı¸ö½Å½Óµ½ A1 ½Ó¿ÚÉÏ£¬ÕâÊÇ´íÎóµÄ</p>
-<h3 align="center">ÉÕĞ´Ô´Âë</h3>
-<p>ÏÖÔÚ£¬ÄãĞèÒªÔÚÄãµÄArduinoÉÕĞ´Èí¼şÖĞ°²×°±¾¿âÖĞµÄ DHT.zip µ½ÄãµÄ¿âÖĞ.×¢Òâ£¬Äã±ØĞë°²×°Õâ¸ö¿â£¬·ñÔòÄã»áÔÚ±àÒë¹ı³ÌÖĞ³öÏÖ´íÎó</p>
-<h3 align="center">¹§Ï²£¡Èç¹ûÄã½ÓÏßÃ»ÎÊÌâµÄ»°£¬ÏÖÔÚÒÑ¾­¿ÉÒÔÍ¨¹ıµ÷ÕûµçÎ»Æ÷¿´¼ûÆÁÄ»ÉÏÏÔÊ¾³öÊı¾İÁË£¡</h3>
+<h2 align="center">è¿™æ˜¯ä¸€ä¸ªæ„å»º Arduino æ°”è±¡ç«™çš„å°é¡¹ç›®</h2>
+<p>    ä½ å¯ä»¥é€šè¿‡è¿™ä¸ªé¡¹ç›®è½»æ¾åœ°ä½¿ç”¨ä½ çš„ Arduino Uno å’Œ DHT æ¸©æ¹¿åº¦ä¼ æ„Ÿå™¨ä»¥åŠ 1602A ç‚¹é˜µå±æ¥æ„å»ºä¸€ä¸ªå°çš„ Arduino æ°”è±¡ç«™.æœ¬é¡¹ç›®çš„æºç æ¥è‡ª https://miymakers.wordpress.com/ åœ¨è¿™ä¸ªåŸæ¥çš„æ•™ç¨‹ä¸­å‡ºç°äº†ä¸€ä¸ªå°é”™è¯¯ï¼Œæˆ‘ä¼šåœ¨åé¢çš„æ•™ç¨‹ä¸­çº æ­£å®ƒ</p>
+<p>æ­¤æ°”è±¡ç«™å°†ä½¿ç”¨3.3Vä¾›ç”µ.</p>
+<h3 align="center">æ¥çº¿</h3>
+<h4 align="center">LCD æ˜¾ç¤ºå±çš„è¿æ¥</h4>
+<p align="center">D7 - 2 å·æ¥å£</br>D6 â€“ 3 å·æ¥å£</br>D5 â€“ 4 å·æ¥å£</br>D4 â€“ 5 å·æ¥å£</br>E â€“ 11 å·æ¥å£</br>RS â€“ 12 å·æ¥å£</br>VDD æ¥å…¥ç”µæºæ­£æ</br>A æ¥å…¥ç”µæºæ­£æ</br>VSS æ¥å…¥ç”µæºè´Ÿæ</br>K æ¥å…¥ç”µæºè´Ÿæ</br>RW æ¥å…¥ç”µæºè´Ÿæ</br>VO â€“  ç”µä½å™¨çš„ä¸­é—´è„š</p>
+<h4 align="center">DHT ä¼ æ„Ÿå™¨çš„è¿æ¥</h4>
+<p align="center">æˆ‘ä»¬å·²æœ‰å¾ˆå¤šå­”çš„ä¸€é¢ä¸ºæ­£é¢ï¼Œä»å·¦åˆ°å³ä¸€å…±æœ‰4ä¸ªå¼•è„šï¼ˆå¦‚æœä½ çš„åªæœ‰ä¸‰ä¸ªå¼•è„šé‚£æ›´å¥½ï¼‰.</br>ç¬¬ä¸€ä¸ªå¼•è„šæ¥ç”µæºæ­£æï¼Œå·¥ä½œç”µå‹èŒƒå›´æ˜¯ 3.3V åˆ° 5.5V</br>ç¬¬äºŒä¸ªå¼•è„šæ˜¯è¾“å‡ºè„šï¼Œä½ éœ€è¦æŠŠå®ƒè¿æ¥åˆ° A1 æ¥å£</br>ç¬¬ä¸‰ä¸ªè„šæ˜¯ç©ºç½®è„šï¼ˆå¦‚æœä½ çš„ DHT åªæœ‰ä¸‰ä¸ªè„šåˆ™ä½ çš„ä¼ æ„Ÿå™¨ä¸Šæ²¡æœ‰è¿™ä¸ªè„šï¼‰</br>ç¬¬å››ä¸ªè„šæ¥ç”µæºè´Ÿæ</br>æ³¨æ„ï¼ŒåŸå§‹çš„æ•™ç¨‹ä¸Šè®©ä½ æŠŠç¬¬ä¸‰ä¸ªè„šæ¥åˆ° A1 æ¥å£ä¸Šï¼Œè¿™æ˜¯é”™è¯¯çš„</p>
+<h3 align="center">çƒ§å†™æºç </h3>
+<p align="center">ç°åœ¨ï¼Œä½ éœ€è¦åœ¨ä½ çš„Arduinoçƒ§å†™è½¯ä»¶ä¸­å®‰è£…æœ¬åº“ä¸­çš„ DHT.zip åˆ°ä½ çš„åº“ä¸­.æ³¨æ„ï¼Œä½ å¿…é¡»å®‰è£…è¿™ä¸ªåº“ï¼Œå¦åˆ™ä½ ä¼šåœ¨ç¼–è¯‘è¿‡ç¨‹ä¸­å‡ºç°é”™è¯¯</p>
+<h3 align="center">æ­å–œï¼å¦‚æœä½ æ¥çº¿æ²¡é—®é¢˜çš„è¯ï¼Œç°åœ¨å·²ç»å¯ä»¥é€šè¿‡è°ƒæ•´ç”µä½å™¨çœ‹è§å±å¹•ä¸Šæ˜¾ç¤ºå‡ºæ•°æ®äº†ï¼</h3>
 
-<h2 aligh="center">This is connect picture / ½ÓÏßÍ¼Ê¾</h2>
+<h2 aligh="center">This is connect picture / æ¥çº¿å›¾ç¤º</h2>
 <img src="./connectteach.jpg" align="center">
