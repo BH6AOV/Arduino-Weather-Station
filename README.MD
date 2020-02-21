@@ -1,7 +1,7 @@
 <h1 align="center"> Arduino Weather Station</h1>
 <h2 align="center">This is an Arduino Weather Station Program.</h2>
 <p align="center">In this program,you can use your Arduino Uno Rev3 and DHT Tempture sensor with 1602A LCD monitor to make a weather station easily.This source come from https://miymakers.wordpress.com/ and in this course of study I find some wrong and fixed in this page.</p>
-<p>This station will use 3.3V port on Arduino.</p>
+<p>This station will use 5V port on Arduino.</p>
 <h3 align="center">Connect</h3>
 <h4 align="center">LCD Connect</h4>
 <p align="center">D7- DIGITAL PIN 2</br>D6 – 3</br>D5 – 4</br>D4 – 5</br>E – 11</br>RS – 12</br>VDD (+) RAIL BREADBOARD</br>A (+)RAIL BREADBOARD</br>VSS (-)RAIL BREADBOARD</br>K (-)RAIL BREADBOARD</br>RW (-)RAIL BREADBOARD</br>VO –  Potentiometer Middle Pin</p>
@@ -13,7 +13,7 @@
 
 <h2 align="center">这是一个构建 Arduino 气象站的小项目</h2>
 <p>    你可以通过这个项目轻松地使用你的 Arduino Uno 和 DHT 温湿度传感器以及 1602A 点阵屏来构建一个小的 Arduino 气象站.本项目的源码来自 https://miymakers.wordpress.com/ 在这个原来的教程中出现了一个小错误，我会在后面的教程中纠正它</p>
-<p>此气象站将使用3.3V供电.</p>
+<p>此气象站将使用 5V 供电.</p>
 <h3 align="center">接线</h3>
 <h4 align="center">LCD 显示屏的连接</h4>
 <p align="center">D7 - 2 号接口</br>D6 – 3 号接口</br>D5 – 4 号接口</br>D4 – 5 号接口</br>E – 11 号接口</br>RS – 12 号接口</br>VDD 接入电源正极</br>A 接入电源正极</br>VSS 接入电源负极</br>K 接入电源负极</br>RW 接入电源负极</br>VO –  电位器的中间脚</p>
