@@ -8,7 +8,7 @@
 <h4 align="center">DHT sensor Connect</h4>
 <p align="center">We will be perforated positive side and left to right a total of 4 pins(may be your only have 3 pins but that is better).</br>The first pin is VCC,can work on 3.3V to 5.5V</br>The second pin is DATA PIN,you need connect this pin to A1 port on board.</br>The third pin is empty (3 pins DHT sensor don't have this pin)</br>The fourth pin is GND</br>Caution!You need use this pin and in the orginal course of study,they teach you use third pin and that is WRONG!</p>
 <h3 align="center">Flash the sourse to board</h3>
-<p align="center">And now,you need install DHT repo to your Arduino software,you can see a zip package named DHT.zip in this repo.Caution!You must install this package and if you don't install this you may be get so many errors </p>
+<p align="center">And now,you need install DHT repo to your Arduino IDE,you can see a zip package named DHT.zip in this repo.Caution!You must install this package and if you don't install this you may be get so many errors </p>
 <h3 align="center">congratulation!Now you can see Temp and Humidity data in your 1602A monitor throught adjustment potentiometer if you connect right!</h3>
 
 <h2 align="center">这是一个构建 Arduino 气象站的小项目</h2>
@@ -20,7 +20,7 @@
 <h4 align="center">DHT 传感器的连接</h4>
 <p align="center">我们以有很多孔的一面为正面，从左到右一共有4个引脚（如果你的只有三个引脚那更好）.</br>第一个引脚接电源正极，工作电压范围是 3.3V 到 5.5V</br>第二个引脚是输出脚，你需要把它连接到 A1 接口</br>第三个脚是空置脚（如果你的 DHT 只有三个脚则你的传感器上没有这个脚）</br>第四个脚接电源负极</br>注意，原始的教程上让你把第三个脚接到 A1 接口上，这是错误的</p>
 <h3 align="center">烧写源码</h3>
-<p align="center">现在，你需要在你的Arduino烧写软件中安装本库中的 DHT.zip 到你的库中.注意，你必须安装这个库，否则你会在编译过程中出现错误</p>
+<p align="center">现在，你需要在你的 Arduino IDE中安装本库中的 DHT.zip 到你的库中.注意，你必须安装这个库，否则你会在编译过程中出现错误</p>
 <h3 align="center">恭喜！如果你接线没问题的话，现在已经可以通过调整电位器看见屏幕上显示出数据了！</h3>
 
 <h2 aligh="center">This is connect picture / 接线图示</h2>
